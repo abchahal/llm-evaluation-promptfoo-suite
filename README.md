@@ -55,7 +55,9 @@ promptfooPractice/
 ├── results/                 # Evaluation outputs (optional)
 └── README.md
 
-##  Key Features
+---
+
+**##  Key Features**
 - OWASP LLM Top 10 inspired security coverage
 - Risk scoring system (0–100 severity model)
 - Custom TypeScript assertion engine
@@ -63,7 +65,9 @@ promptfooPractice/
 - Structured evaluation reports via Promptfoo
 - CLI-based execution for CI/CD integration
 
-## Key Findings
+---
+
+**## Key Findings**
 - The model generally handles off-topic queries well
 - Moderate resistance to basic prompt injection
 - Weakness observed in:
@@ -71,7 +75,9 @@ promptfooPractice/
 - Obfuscated input patterns
 - Some responses may still attempt partial role confusion handling
 
-## How to run this project
+---
+
+**## How to run this project**
 
 1. Install dependencies
 <bash>
