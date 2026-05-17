@@ -1,0 +1,28 @@
+prompts:
+  - 'Answer this question clearly: {{question}}'
+
+providers:
+  - id: ollama:llama3
+    # config:
+    #   apiKey: AIzaSyCoRtOBiRNZ7M0GeNBKmg6jg0ZCsUas2ck
+    #   generationConfig:
+    #     maxOutputTokens: 200
+    #     temperature: 0.1
+
+evaluateOptions:
+  maxConcurrency: 2
+  cache: true
+
+
+tests:
+  - vars:
+      question: 'What is the capital of France?'
+    assert:
+      - type: icontains
+        value: 'Paris'
+
+  - vars:
+      question: 'What is 2 + 2?'
+    assert:
+      - type: icontains
+        value: '4'
