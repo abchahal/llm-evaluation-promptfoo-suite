@@ -57,30 +57,32 @@ promptfooPractice/
 
 ---
 
-**##  Key Features**
-- OWASP LLM Top 10 inspired security coverage
-- Risk scoring system (0–100 severity model)
-- Custom TypeScript assertion engine
-- Prompt injection & jailbreak detection
-- Structured evaluation reports via Promptfoo
-- CLI-based execution for CI/CD integration
+## Key Features
+
+- OWASP LLM Top 10 inspired security coverage  
+- Risk scoring system (0–100 severity model)  
+- Custom TypeScript assertion engine  
+- Prompt injection & jailbreak detection  
+- Structured evaluation reports via Promptfoo  
+- CLI-based execution for CI/CD integration  
 
 ---
 
-**## Key Findings**
-- The model generally handles off-topic queries well
-- Moderate resistance to basic prompt injection
+## Key Findings
+
+- The model generally handles off-topic queries well  
+- Moderate resistance to basic prompt injection  
 - Weakness observed in:
-- Indirect prompt injection cases
-- Obfuscated input patterns
-- Some responses may still attempt partial role confusion handling
+  - Indirect prompt injection cases  
+  - Obfuscated input patterns  
+- Some responses may still attempt partial role confusion handling  
 
 ---
 
-**## How to run this project**
+## 🚀 How to Run This Project
 
-1. Install dependencies
-<bash>
+### 1. Install dependencies
+```bash
 npm install
 
 2. Install Promptfoo (if not already installed)
