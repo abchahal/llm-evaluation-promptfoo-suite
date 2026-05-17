@@ -31,7 +31,6 @@ jobs:
 
       # Run evaluation + export results (ONLY ONCE)
       - name: Run Promptfoo evaluation
-        working-directory: promptfoopractice
         run: promptfoo eval -c promptfoo-llm-tests/security-tests.yaml --output results.json
 
       # Upload results as artifact
